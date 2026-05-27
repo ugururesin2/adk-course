@@ -95,7 +95,7 @@ destination_research_agent = Agent(
     - Safety considerations and travel requirements
     Provide comprehensive destination insights for trip planning.
     """,
-    output_key="destination_research",
+    output_key="destination_research", #the key under which this agent's output will be stored for use by subsequent agents
 )
 
 
